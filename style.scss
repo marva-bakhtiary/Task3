@@ -22,7 +22,9 @@ hr {
 .hr-post{
     border-top: 5px solid $bg-color;
 }
-
+.toggler{
+    display: none;
+}
 .aside {
     background-color: $bg-color;
     color: white;

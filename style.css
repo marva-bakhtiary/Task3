@@ -21,6 +21,10 @@ hr {
   border-top: 5px solid #0CC;
 }
 
+.toggler {
+  display: none;
+}
+
 .aside {
   background-color: #0CC;
   color: white;

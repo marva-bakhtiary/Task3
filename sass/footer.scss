@@ -1,0 +1,103 @@
+.prev-next-wrapper, .paging-wrapper{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn{
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+.btn-first{
+    background-color: $bg-color;
+    color: white;  
+    padding: 8px 43px;
+    border: none;
+    
+}
+.btn-first:hover{
+    background-color: #09b6b6;
+    color: white;
+}
+.btn.disabled{
+    background-color: #F0F0F0;
+    color: #999;
+    cursor: not-allowed;
+    margin-right: 20px; 
+}
+
+.paging-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.page{
+    display: inline-block;
+}
+
+.paging-nav{
+    display: inline-block;
+    ul{
+        li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+}
+.paging-nav{
+    ul{
+        li:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+  .paging-link:hover , .paging-link.active{
+    background-color:$bg-color;
+    color: white;
+}
+
+.paging-link{
+    background-color: #F0F0F0;
+    color: #999;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer{
+    color: #999;
+    max-width: 980px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 30px;
+}
+
+.Design-info{
+    a{
+        color: $bg-color;
+    }
+    a:hover{
+        color: #099;
+    }
+}
+
+.last-section{
+    justify-content: space-between;
+    display: flex;
+    max-width: 1100px;
+    margin-top: 100px;
+    margin-bottom: 75px; 
+}
+.copyright{
+    text-align: right;
+}

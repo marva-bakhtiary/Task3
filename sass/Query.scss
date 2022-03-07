@@ -1,0 +1,50 @@
+/* Media Query */
+
+@media (max-width: 1510px) {
+    .aside{
+        width: 320px;
+    }
+   .social-link{
+       margin-right: 2px;
+   }
+.container{
+    margin-left: 320px;
+    width: calc(100% - 320px);
+}
+   .form { justify-content: flex-start; }
+   .prev-next-wrapper,.paging-wrapper,footer { 
+       justify-content: flex-start; 
+    }
+}
+
+@media (max-width: 900px) {
+    .aside{
+        width: 320px;
+        left: -320px;        
+        transition: all 0.3s ease;
+    }
+    .toggler{
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: rgba(56, 204, 204, 0.75);
+        color: white;
+        padding: 10px 15px;
+        transition: all 0.3s ease;
+        border-radius: 0;
+        top: 5px;
+    }
+   .form { 
+       justify-content: flex-start; 
+       width: 70%;
+       max-width: 375px;
+       margin-right: 15px;
+    }
+   .container{
+    padding: 60px 10px;
+       margin-left: 80px;
+       width: calc(100% - 320px);
+   }
+
+}

@@ -1,0 +1,126 @@
+.hr-post{
+    border-top: 5px solid $bg-color;
+}
+
+.main{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    margin-left: 400px;
+    padding: 80px 100px 25px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.form .search-input{
+    display: block;
+    height: 60px;
+    width: 480px;
+    margin-right: 30px;
+    border-color: #0CC;
+    font-size: 1.2rem;
+}
+
+.search-button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #0CC;
+    transition: all 0.3s ease;
+    i{
+color: white;
+font-size: 1.3rem;
+    }
+}
+.search-button:hover{
+    background: #09b6b6;
+    cursor: pointer;
+}
+.search-button , .search-input{
+    border-radius: 3px;
+}
+
+.article{ 
+    max-width: 470px;
+    margin-bottom: 75px;
+}
+.post{
+    display: block;
+    position: relative;
+	cursor: pointer;
+    text-decoration: none;
+    padding-top: 60px; 
+    img{
+        position: relative;
+        display: block;
+        min-height: 100%;
+        max-width: 100%;
+        opacity: 0.8;
+    }
+}
+
+.row{
+    max-width: 980px;
+    justify-content: space-between;
+}
+.post-title{
+    color:#0e9b9b ;
+    font-size: 1.7rem;
+    transition: all 0.3s ease;
+    padding-top: 30px; 
+}
+.post:hover {
+    .post-title{
+
+        color: $bg-color;
+    }
+    img{
+        opacity: 1;
+    }
+}
+.articles-container{
+    max-width: 1100px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 30px;
+}
+.badge{
+    position: absolute;
+    top: 25px;
+    right: -10px;
+    background-color: #0CC;
+    color: white;
+    padding: 5px 20px;
+}
+.article{
+    p{ 
+        padding-top: 30px; 
+    }
+    
+}
+.info-container{
+    justify-content: space-between;
+  padding-top: 45px; 
+}
+.info{
+    color: $bg-color;
+}
+.comment{
+    justify-content: space-between;
+}
+.site-link{
+    color:#0e9b9b  ;
+}
+.site-link:hover{
+    color: $bg-color;
+}
